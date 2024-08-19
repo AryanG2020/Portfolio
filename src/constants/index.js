@@ -3,7 +3,7 @@ import project2 from "../assets/projects/portfolio.png";
 import project3 from "../assets/projects/vehicle.png";
 
 import project5 from "../assets/projects/rasterizer.png"
-import project6 from "../assets/projects/Keras.png"
+import project6 from "../assets/projects/keras.png"
 import project7 from "../assets/projects/movies.png"
 import project8 from "../assets/projects/ecommerce.png"
 
