@@ -18,7 +18,7 @@ const typingEffect = {
         opacity: 1,
         transition: {
             delay: 2.9,
-            staggerChildren: 0.03 // Faster stagger for longer text
+            staggerChildren: 0.01 // Faster stagger for longer text
         }
     }
 };
