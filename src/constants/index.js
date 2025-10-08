@@ -11,12 +11,18 @@ import project8 from "../assets/projects/ecommerce.png"
 export const HERO_CONTENT = `I am a dedicated and versatile software engineer with a strong foundation in both front-end and back-end development. With a focus on building robust, scalable applications, I bring hands-on experience in developing solutions that blend the latest in web technologies with advanced data science methodologies. My expertise spans across programming languages such as Java, Python, and JavaScript, and extends to frameworks like React, Node.js, and Express.js. I have also delved into AI and machine learning, developing models and simulations using tools like TensorFlow and Julia. I thrive on the challenge of integrating diverse technologies, from developing e-commerce applications tailored to specific communities, to implementing secure payment systems and creating intuitive user interfaces. I aim to continue leveraging my diverse skill set to engineer innovative solutions that solve complex problems and drive both technological and business success. `;
 
 export const ABOUT_TEXT = `
-I am a Computer Science and Economics major at DePauw University, specializing in both front-end and back-end development with a strong foundation in software engineering principles. My expertise includes hands-on experience with JavaScript, React, and Tailwind CSS for crafting responsive and dynamic web applications, alongside proficiency in C++ for developing more complex systems, such as custom software rasterizers. I also have a solid background in data science, utilizing Julia for sophisticated economic modeling and TensorFlow for creating and training machine learning models. Beyond my technical skills, I am deeply committed to community service, having co-founded educational initiatives in Nepal and volunteered in sustainable development projects. At some point, I want to integrate my technical expertise with my passion for social impact, creating innovative solutions that make a meaningful difference both locally and globally.`;
+I am a DePauw University alumnus, graduating summa cum laude with a dual major in Computer Science and Economics, specializing in Machine Learning, front-end, and back-end development with a strong foundation in software engineering principles. My expertise includes hands-on experience with JavaScript, React, and Tailwind CSS for crafting responsive and dynamic web applications, alongside proficiency in .NET for developing more complex systems. I also have a solid background in data science, utilizing Python and Julia for sophisticated economic modeling and TensorFlow for creating and training machine learning models. Beyond my technical skills, I am deeply committed to community service, having co-founded educational initiatives in Nepal and volunteered in sustainable development projects. At some point, I want to integrate my technical expertise with my passion for social impact, creating innovative solutions that make a meaningful difference both locally and globally.`;
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
-    role: "Research Assistant",
+    year: "2024-2025",
+    role: "Software Enginner (Research and Development)",
+    company: "Spiralogics",
+    description: `At Spiralogics, I worked in the Research and Development team, where I contributed to the design and implementation of AI-powered solutions aimed at improving healthcare and internal communication systems. I helped integrate an intelligent chatbot capable of understanding user intent and providing context-aware responses, leveraging Natural Language Processing (NLP) models into the company’s existing platforms. I also worked on a middleware solution that automated JSON-to-Excel extraction and transformation, enabling seamless integration between Point of Rental and Eclipse Epicor ERP systems.`,
+  },
+  {
+    year: "2024",
+    role: "Quantitative Researcher",
     company: "DePauw University",
     description: `As a Research Assistant at DePauw University, I developed a sophisticated job-searching model using extensive datasets from CPS IPUMS, consisting of over 1.3 million observations, to analyze the correlation between race and entrepreneurship. Utilizing Julia, I simulated real-world decision-making processes by applying Bellman equations and macroeconomic models such as Burdett-Mortensen, Markov, and Aiyagari. This work involved dynamic programming techniques to approximate lifetime values and optimize policy functions, providing insights into the trade-offs between entrepreneurship and wage employment in complex economic models.`,
   },
@@ -29,9 +35,9 @@ export const EXPERIENCES = [
   },
   {
     year: "2023 - 2024",
-    role: "Archive Assistant",
+    role: "Archive Database Intern",
     company: "DePauw University",
-    description: `As an intern at the archive library database, I played a key role in digitizing records and managing the database, ensuring that valuable information was accurately preserved and easily accessible. My responsibilities included organizing and maintaining the digital archives, as well as efficiently handling customer requests for materials.`,
+    description: `As an intern at the archive library database, I played a key role in digitizing records and managing the database, ensuring that valuable information was accurately preserved and easily accessible. Collaborated with the IT and library teams to enhance database indexing and ensure secure, scalable storage of archival materials.`,
     
   },
   {
@@ -115,7 +121,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "509 S Locust St, IN, USA ",
+  address: "15 accord Dr, Malvern, PA, USA ",
   phoneNo: "+1 (765)-712-2135 ",
   email: "aryan.gurubacharya@gmail.com",
 };
